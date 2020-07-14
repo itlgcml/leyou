@@ -1,0 +1,2 @@
+将本静态文件启动
+live-server --port=9002
