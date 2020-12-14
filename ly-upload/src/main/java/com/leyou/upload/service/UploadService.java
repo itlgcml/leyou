@@ -2,7 +2,6 @@ package com.leyou.upload.service;
 
 import com.leyou.common.exception.ExceptionEnum;
 import com.leyou.common.exception.LyException;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -41,4 +40,6 @@ public class UploadService {
             throw new LyException(ExceptionEnum.UPLOAD_FILE_ERROR);
         }
     }
+
+
 }
